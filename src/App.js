@@ -18,7 +18,7 @@ function App() {
     <div className="App">
      <h1>Dictionary App</h1>
      <form onSubmit={handleSubmit}>
-     <input type="search" placeholder='search for a word...' onChange={handleChange}/>
+     <input type="text" placeholder='search for a word...' onChange={handleChange}/>
      <button type="submit">Search</button>
      </form>
      <p style={{fontSize:'1.5',fontWeight:'500',marginBottom:'1rem'}}>Definition:</p>
